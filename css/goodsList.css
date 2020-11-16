@@ -1,0 +1,60 @@
+.wrap{
+  width: 1000px;
+  margin: 0 auto;
+}
+.header{
+  background-color: #eee;
+  position: relative;
+}
+.header h1{
+  text-align: center;
+  line-height: 80px;
+  font-size: 30px;
+}
+.header a{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: red;
+  padding: 4px 8px;
+  border: 1px solid red;
+}
+.nav{
+  padding: 15px 0;
+}
+.main{
+  overflow: hidden;
+}
+.content{
+  width: 1050px;
+  overflow: hidden;
+}
+.goods{
+  float: left;
+  width: 235px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #fff;
+}
+.goods:hover{
+  border-color: red;
+}
+.goods img{
+  width: 235px;
+}
+.goods p{
+  color: #f40;
+  font-size: 18px;
+  padding: 6px 0;
+}
+.goods div{
+  border: 1px solid #f40;
+  color: #f40;
+  font-size: 14px;
+  padding-left: 40px;
+  line-height: 30px;
+  background: url(../img/cart.png) 5px 4px no-repeat;
+  float: right;
+  padding-right: 6px;
+  cursor: pointer;
+}
